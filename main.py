@@ -17,7 +17,11 @@ class Start(QMainWindow):
         uic.loadUi('start.ui', self)  # Загружаем дизайн
 
         self.setWindowTitle("Student It Cube")
+        self.setWindowIcon(QIcon("./system/brain.ico"))
         self.setStyleSheet(formStyle)
+
+        pixmap = QPixmap("""./system/brain.png""")
+        self.label_4.setPixmap(pixmap)
 
         self.pushButton.clicked.connect(self.inter)
 

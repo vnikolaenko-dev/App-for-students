@@ -15,6 +15,10 @@ QListWidget{
     padding: 8px;
 }
 
+QListWidget::item{
+    padding: 8px;
+}
+
 QListWidget::item:hover{
     background-color: #FFFFFF;
     color: #1B1B1B;
@@ -48,6 +52,14 @@ QPushButton{
 
 QPushButton:hover{
     color: #A6A6A6;
+}
+
+QLineEdit{
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-left: 8px;
 }
 """
 
